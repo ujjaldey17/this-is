@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #323A45;
+}
+.wrapper{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+    margin-top: 35px;
+}
+/*
+.logo img{
+    height: 50px;
+    width: 10%;
+}
+*/
+.nav{
+    float: right;
+    width: 60%;
+    margin-top: 10px;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    margin-top: 50px;
+    transition: .5s;
+    padding-bottom: none;
+    
+}
+.nav ul li a:hover{
+    background-color: aqua;
+}
+.nav ul li a:last-child{
+    padding-right: o;
+}
+.banner{
+    min-height: 500px;
+    background-image: url(../images/beach-blue-coast-47424.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+.banner_content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px; 
+    line-height: 3;
+}
+.banner_content h2{
+    font-size: 20px;
+}
+.button{
+    margin-top: 20px;
+    border: 1px solid white;
+   background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+}
+.banner_two{
+    min-height: 300px;  
+    background-color: #E9E6E1;
+}
+.banner_content_two{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 10px;
+    font-size: 40px;
+}
+.banner_text1{
+    background-color: aqua;
+    color: white;
+}
+.banner_text2{
+    color: aqua;
+}
+.banner_text3{
+    color: aqua;
+}
+.service1{
+    background-color: white;
+}
+.service1_content{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;   
+}
+.content_one{
+    width: 20%;
+    min-height: 250px;
+    background-color: #E3E1E2;
+    margin-top: 40px;
+    float: left;
+    margin-left: 53px;
+    padding: 10px 10px;
+}
+.content_one:first-child{
+    margin-left: 0;
+}
+.icons img{
+    height: 60px;
+    padding: 10px 125px;
+}
+.icons_name{
+    text-align: center;
+}
+.icons_info{
+    text-align: center;
+}
+.h2_color{
+    color: aqua;
+}
+.service2{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.service2_content{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.service2_info{
+    width: 35%;
+    min-height: 250px;
+    float: left;
+}
+.service2_info h2{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ABABAB;
+}
+.p_one{
+    color: #ABABAB;
+}
+
+.service2_info p{
+    margin-top: 10px;
+}
+.button{
+    padding: 5px 4px;
+    background-color: aqua;
+    border: none;
+    border-radius: 6px;
+    
+}
+.service2_part1{
+    width: 60%;
+    float: right;
+    overflow: hidden;
+}
+.content_two{
+    width: 30%;
+    background-color: #34495E;
+    float: left;
+    margin-left: 10px;
+}
+.content_two img{
+     width: 100%;
+    height: 145px;
+}
+.content_two h2{
+    text-align: center;
+    margin-top: 10px;
+    color: #D3D3D3;
+}
+.content_two p{
+    text-align: center;
+    margin-top: 10px;
+    color: #A9A9A2;
+    padding-bottom: 20px;
+}
+.footer_1{
+    overflow: hidden;
+    background-color: #2A80B9;
+    margin-top: 50px;
+}
+.footer_content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    color: #D3D3D2;
+    font-weight: 100;
+}
+.footer_content p{
+    padding-top: 10px;
+}
+.footer_2{
+    background-color: #34495E;
+    text-align: center;
+    color: #D3D3D2;
+    min-height: 60px;
+    padding-top: 20px;
+}
